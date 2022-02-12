@@ -308,11 +308,11 @@ section p a {
 }
 .motos .elemento section img{
   width: 200px;
-  transform: 3s linear;
+  transition: 0.5s linear;
   
 }
 .motos .elemento section img:hover{
-  transform: rotate(90deg);
+  transform: rotateY(180deg);
 }
 
 .camionetas {
