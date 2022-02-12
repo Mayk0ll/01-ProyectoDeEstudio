@@ -521,6 +521,7 @@ button {
   }
   50%{
     color: #f76e11;
+    text-shadow: 3px 3px 5px white;
   }
   100%{
     color: white;
