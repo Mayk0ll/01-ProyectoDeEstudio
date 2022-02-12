@@ -308,11 +308,11 @@ section p a {
 }
 .motos .elemento section img{
   width: 200px;
-  transition: all 1s;
+  transform: 3s linear;
   
 }
 .motos .elemento section img:hover{
-  transform: rotateY(180deg);
+  transform: rotate(90deg);
 }
 
 .camionetas {
@@ -383,6 +383,18 @@ section p a {
   margin-bottom: 20px;
 }
 
+@keyframes enProceso{
+  0%{
+    color: black;
+    text-shadow: 3px 3px 5px tomato;
+  }
+  50%{
+    color: #f76e11;
+  }
+  100%{
+    color: white;
+  }
+}
 /* Trabaja con nosotros---------------------------------------------------------------------------------------------------------------------------------------- */
 
 .contenedorTN{
@@ -502,7 +514,18 @@ button {
 
 
 
- 
+ @keyframes enProceso{
+  0%{
+    color: black;
+    text-shadow: 3px 3px 5px tomato;
+  }
+  50%{
+    color: #f76e11;
+  }
+  100%{
+    color: white;
+  }
+ }
 /* -----------------------------------------Media Query--------------------------------------- */
 /* -----------------------------------------Media Query--------------------------------------- */
 
